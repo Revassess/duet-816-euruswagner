@@ -3,10 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="96685876-abfc-43c9-b7f6-0f6e959bb0df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    <list default="true" id="43a206de-51ab-453c-a3cd-accb15453a93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/setup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/setup.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +46,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1fuzanp8d4JWueRmQ4bAaQ5fHSI" />
+  <component name="ProjectId" id="1fvDX04nQ0hF1uGzkqWdoIFO0iD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,19 +55,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.Tier1Tests">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Tier2Tests">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Answer1Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Revassess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revature.tier2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revature.tier2" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.tier2.Answer1Tests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -53,12 +87,12 @@
       <module name="Revassess" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revature.tier1.*" />
+          <option name="PATTERN" value="com.revature.tier2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revature.tier1" />
-      <option name="MAIN_CLASS_NAME" value="com.revature.tier1.Answer2Tests" />
+      <option name="PACKAGE_NAME" value="com.revature.tier2" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.tier2.Answer2Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,58 +102,42 @@
       <module name="Revassess" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revature.tier1.*" />
+          <option name="PATTERN" value="com.revature.tier2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revature.tier1" />
-      <option name="MAIN_CLASS_NAME" value="com.revature.tier1.Answer3Tests" />
+      <option name="PACKAGE_NAME" value="com.revature.tier2" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.tier2.Answer3Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Answer3Tests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Answer4Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Revassess" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revature.tier1.*" />
+          <option name="PATTERN" value="com.revature.tier2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revature.tier1" />
-      <option name="MAIN_CLASS_NAME" value="com.revature.tier1.Answer3Tests" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PointsTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Revassess" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.revature.tier1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.revature.tier1" />
-      <option name="MAIN_CLASS_NAME" value="com.revature.tier1.PointsTests" />
+      <option name="PACKAGE_NAME" value="com.revature.tier2" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.tier2.Answer4Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tier1Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tier2Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Revassess" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.revature.tier1.*" />
+          <option name="PATTERN" value="com.revature.tier2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.revature.tier1" />
-      <option name="MAIN_CLASS_NAME" value="com.revature.tier1.Tier1Tests" />
+      <option name="PACKAGE_NAME" value="com.revature.tier2" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.tier2.Tier2Tests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,46 +145,56 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tier1Tests" />
-        <item itemvalue="JUnit.PointsTests" />
+        <item itemvalue="JUnit.Tier2Tests" />
+        <item itemvalue="JUnit.Answer4Tests" />
         <item itemvalue="JUnit.Answer3Tests" />
         <item itemvalue="JUnit.Answer2Tests" />
-        <item itemvalue="JUnit.Answer3Tests.test3" />
+        <item itemvalue="JUnit.Answer1Tests" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96685876-abfc-43c9-b7f6-0f6e959bb0df" name="Default Changelist" comment="" />
-      <created>1597082831526</created>
+      <changelist id="43a206de-51ab-453c-a3cd-accb15453a93" name="Default Changelist" comment="" />
+      <created>1597089709983</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597082831526</updated>
-      <workItem from="1597082832570" duration="4368000" />
-      <workItem from="1597087235796" duration="1009000" />
+      <updated>1597089709983</updated>
+      <workItem from="1597089712364" duration="2133000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1597087229950">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1597094784159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597087229950" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1597087229950">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597094784159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1597094784159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597087229950" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1597087229950">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597094784159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1597094784159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597087229950" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1597087229950">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597094784159" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1597094784159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597087229950" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597094784159" />
   </component>
 </project>

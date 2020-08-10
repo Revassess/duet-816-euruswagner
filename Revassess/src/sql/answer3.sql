@@ -1,0 +1,1 @@
+select * from app_user inner join study_set ss on user_id = 5 and owner_id = 5;
